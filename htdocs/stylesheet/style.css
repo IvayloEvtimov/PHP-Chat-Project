@@ -1,0 +1,33 @@
+.left{
+	margin-left:10px;
+}
+
+#contact-field{
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+#contact-icon{
+	margin-top:10px;
+	font-size:32px;
+}
+
+#contact{
+	position: relative;
+	bottom:10px;
+}
+
+.chat-box{
+	border: 1px solid blue;
+	margin-left:10px;
+	height:600px;
+	width: 200px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.name_time{
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom:0px;
+}
