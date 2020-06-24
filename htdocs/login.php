@@ -1,7 +1,7 @@
 <?php
 	require_once "database.php";
-  if( isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password']) ){
-    $username = $_POST['username'];
+	if( isset($_POST['username']) && !empty($_POST['username']) && isset($_POST['password']) && !empty($_POST['password']) ){
+		$username = $_POST['username'];
 		$password = $_POST['password'];
 		
 		
@@ -22,11 +22,11 @@
 			}else{
 				echo "<script>alert('Wrong username or password')</script>";
 			}
-		}else{
-			echo "<script>alert('Wrong username or password')</script>";
-		}
+			}else{
+				echo "<script>alert('Wrong username or password')</script>";
+			}
 		
-  }
+  	}
 	header("Location: main.php");
 
 ?>
